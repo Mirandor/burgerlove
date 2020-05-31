@@ -1,0 +1,25 @@
+{
+  "name": "burgerlove",
+  "version": "1.0.0",
+  "description": "> Track the burgers you'd love to try, mark them as \"devoured\" once you've tried them.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mirandor/burgerlove.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mirandor/burgerlove/issues"
+  },
+  "homepage": "https://github.com/Mirandor/burgerlove#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "mysql": "^2.18.1"
+  }
+}
